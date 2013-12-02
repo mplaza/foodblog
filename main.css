@@ -1,0 +1,126 @@
+body{
+	background-color: white;
+	padding: 0;
+	margin:0;
+}
+.topDesign{
+	height:100px;
+	width: 100%;
+	border-bottom: solid 5px;
+	background-color: #C646C6;
+	position: fixed;
+	z-index: 100;
+}
+#moopic{
+	float:left;
+	display:none;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+#cowpic{
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+#sun{
+	background-color: yellow;
+	position:fixed;
+	right: -40px;
+	top:-40px;
+	height: 100px;
+	width:100px;
+	border-radius:999px;
+	-webkit-transition: color 0.5s linear 0;
+}
+#titles{
+	font-family: 'Noto Serif', serif;
+	color:#FF8B61;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-weight: bold;
+	font-size: 36px;
+	float: left;
+	margin-left: 30%;
+	margin-top: 20px;
+	position: fixed;
+}
+.sideNav{
+	font-family: 'Noto Serif', serif;
+	font-size: 16px;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	color: black;
+	position: fixed;
+	height:100%;
+	width:150px;
+	margin-top: 105px;
+	margin-left: -20px;
+	list-style-type: none;
+	
+}
+.sideNav a:link{
+	text-decoration: none;
+	color: black;
+}	
+.sideNav li a:hover{
+	color:#60D4FF; 
+}
+.sideNav li a:visited{
+	color:#FF8B61;
+}
+.sideNav li{
+	margin-top: 25px;
+}
+#grassBorder{
+	position: fixed;
+	margin-top: 50px;
+	width: 100%;
+	height:50px;
+	background-image:url("http://www.clker.com/cliparts/t/O/Z/v/w/W/grass-background-md.png");
+	background-size: contain;	
+}
+.postSection{
+	margin-top: 150px;
+	margin-left: 225px;
+	position:absolute;
+	float:left;
+	color: black;
+
+}
+.firstPost{
+	width:950px;
+	float:left;
+	z-index: 5;
+}
+#stumptownPic{
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+.postTitle{
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	float:left;
+	height:50px;
+	width:400px;
+}
+.postDate{
+	font-family: 'Noto Serif', serif;
+	color: #60D4FF;
+	text-align: center;
+	float: right;
+	height: 50px;
+
+}
+.postContent{
+	font-family: 'Noto Serif', serif;
+}
+.commentSection{
+	float:left;
+	font-family: 'Noto Serif', serif;
+	margin-top:50px;
+	height: 500px;
+	width:800px;
+
+}
